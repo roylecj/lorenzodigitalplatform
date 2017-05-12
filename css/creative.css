@@ -12,11 +12,13 @@ body {
 @font-face {
     font-family: "DXCFont";
     src: url(GT-Walsheim-Pro-Regular.ttf) format("truetype");
+    src: url("GT-Walsheim-Pro-Regular.eot") format('embedded-opentype');
 }
 
 @font-face {
     font-family: "DXCFontBold";
     src: url(GT-Walsheim-Pro-Bold.ttf) format("truetype");
+    src: url("GT-Walsheim-Pro-Bold.eot") format('embedded-opentype');
 }
 
 td{
