@@ -186,6 +186,7 @@ header {
   color: black;
 }
 header .header-content {
+  font-family: "DXCFont";
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
@@ -202,6 +203,7 @@ header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 header .header-content .header-content-inner p {
+  font-family: "DXCFont";
   font-weight: 300;
   color: black;
   font-size: 16px;
@@ -212,6 +214,7 @@ header .header-content .header-content-inner p {
     min-height: 100%;
   }
   header .header-content {
+    font-family: "DXCFont";
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -220,14 +223,17 @@ header .header-content .header-content-inner p {
     padding: 0 50px;
   }
   header .header-content .header-content-inner {
+    font-family: "DXCFont";
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
+    font-family: "DXCFontBold";
     font-size: 50px;
   }
   header .header-content .header-content-inner p {
+    font-family: "DXCFont";
     font-size: 18px;
     max-width: 80%;
     margin-left: auto;
