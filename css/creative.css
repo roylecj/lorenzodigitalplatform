@@ -8,8 +8,28 @@ body {
   height: 100%;
   width: 100%;
 }
+
+@font-face {
+    font-family: "DXCFont";
+    src: url(fonts/GT-Walsheim-Pro-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "DXCFontBold";
+    src: url(fonts/GT-Walsheim-Pro-Bold.ttf) format("truetype");
+}
+
+td{
+	color: #053F61;
+	font-family: "DXCFont";
+	font-size: 18px;
+	font-weight:800;
+	padding:11px;
+	bottom-border-color: #053F61;
+}
+
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "DXCFont";
 }
 hr {
   border-color: #ffed00;
@@ -35,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "DXCFont";
 }
 p {
   font-size: 16px;
@@ -64,21 +84,21 @@ aside {
 .navbar-default {
   background-color: black;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "DXCFont";
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: black;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "DXCFont";
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-brand2 {
   color: black;
-  width: 150px;
-  height: 150px;
+  width: 191px;
+  height: 163px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -172,11 +192,11 @@ header .header-content {
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: "DXCFontBold";
+  font-weight: 1000;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 50px;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
