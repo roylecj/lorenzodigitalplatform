@@ -12,11 +12,13 @@ body {
 @font-face {
     font-family: "DXCFont";
     src: url("fonts/GT-Walsheim-Pro-Regular.ttf") format("truetype");
+    src: url("fonts/GT-Walsheim-Pro-Regular.woff") format("woff");
 }
 
 @font-face {
     font-family: "DXCFontBold";
     src: url("fonts/GT-Walsheim-Pro-Bold.ttf") format("truetype");
+    src: url("fonts/GT-Walsheim-Pro-Bold.woff") format("woff");
 }
 
 td{
@@ -98,7 +100,7 @@ aside {
 .navbar-brand2 {
   color: black;
   width: 191px;
-  height: 163px;
+  height: 159px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
