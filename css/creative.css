@@ -11,14 +11,14 @@ body {
 
 @font-face {
     font-family: "DXCFont";
-    src: url("fonts/GT-Walsheim-Pro-Regular.ttf") format("truetype");
-    src: url("fonts/GT-Walsheim-Pro-Regular.woff") format("woff");
+    src: url("./fonts/GT-Walsheim-Pro-Regular.ttf") format("truetype");
+    src: url("./fonts/GT-Walsheim-Pro-Regular.woff") format("woff");
 }
 
 @font-face {
     font-family: "DXCFontBold";
-    src: url("fonts/GT-Walsheim-Pro-Bold.ttf") format("truetype");
-    src: url("fonts/GT-Walsheim-Pro-Bold.woff") format("woff");
+    src: url("./fonts/GT-Walsheim-Pro-Bold.ttf") format("truetype");
+    src: url("./fonts/GT-Walsheim-Pro-Bold.woff") format("woff");
 }
 
 td{
