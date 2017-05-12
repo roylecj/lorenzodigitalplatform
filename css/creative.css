@@ -99,8 +99,20 @@ aside {
 }
 .navbar-brand2 {
   color: black;
-  width: 191px;
-  height: 159px;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80px;
+  height: 70px;
+}
+.navbar-brand3 {
+  color: black;
+  position: fixed;
+  width: 379px;
+  height: 53px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 0px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -189,6 +201,7 @@ header {
 }
 header .header-content {
   font-family: "DXCFont";
+  background-position: left;
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
